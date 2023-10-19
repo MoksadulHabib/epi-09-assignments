@@ -1,0 +1,218 @@
+@media (max-width:768px) {
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: .8rem;
+    }
+   
+    .btn-primary{
+        padding: .6rem 1.2rem;
+    }
+    /* Header Area Style start */
+    .header_area{
+        padding: .5rem 0;
+    }
+    .header_flex_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+    .menu_item ul{
+        margin-bottom: 2rem;
+    }
+    /* Hero Area Style Start */
+    .hero{
+        padding: 3rem 0 3rem 0;
+    }
+    .hero_flex_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_content h1{
+        line-height: 4rem
+    }
+    .hero_content p{
+        padding: 1rem 0 2rem 0;
+        line-height: 2rem
+        
+    }
+    .hero_content{
+        order: 2;
+    }
+    .hero_images{
+        order: 1;
+
+    }
+    .hero_images img{
+        width: 50%;
+        height: auto;
+        margin-left: 10rem;
+    }
+    /* About Area Style Start */
+
+    .about_section{
+        padding: 2rem 0;
+    }
+    .about_text{
+        padding: 2rem 0;
+    }
+    .about_text p{
+        margin-top: .5rem;
+    }
+  
+    .about_area img{
+        width: 50%;
+        height: auto;
+    }
+    .about_column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .about_column h3{
+        font-size: 1.5rem;
+        margin: .5rem 0;
+    }
+    .about_column p{
+        font-size: 1rem;
+    }
+    
+    .about_area:nth-child(1){
+        padding: 1rem 1.6rem 1rem 1.6rem;
+    }
+
+
+    /* Service Area Style Start */
+    .service_area{
+        padding: 2rem 0 3rem 0;
+    }
+    .service_text_flexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service_button{
+        margin-left: -12rem;
+    }
+    
+    .model1_flexbox,
+    .model2_flexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .model1_flexbox{
+        margin-bottom: 2rem;
+    }
+    .laptop{
+        max-width: 470px;
+        gap: 1rem;
+    }
+    
+    .mobile{
+        max-width: 470px;
+        gap: .2rem;
+    }
+    .laptop p{
+        margin-bottom: 2rem;
+    }
+   .mobile p{
+    margin-bottom: 2rem;
+   }
+    .last{
+        margin-top: 0;
+    }
+    /* Client Area Style Start */
+    .client_area{
+        padding: 5rem 0;
+    }
+    .client_flexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Contact Area Style Start */
+    .contact_flexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact_area{
+        padding: 1rem 0 5rem 0;
+    }
+    .forme_fill{
+        align-items: start;
+    }
+    .form_area{
+        margin-bottom: 2rem;
+    }
+    .form_area input[type=text],
+    .form_area input[type=email],
+    .form_area input[type=number], select{
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 500px) {
+    a{
+        font-size: .6rem;
+    }
+    .service_button{
+        margin-left: -10rem;
+    }
+    .box h3{
+        font-size: 1.2rem;
+    }
+    .box p{
+        font-size: 1rem;
+    }
+    
+    .info_area{
+        flex-basis: 100%;
+        margin-left: 1rem;
+    }
+    .square{
+        width: 270px;
+        height: 218px;
+        align-items: center;
+    }
+    .footer_area h5{
+        font-size: .8rem;
+    }
+    .footer_area a{
+        font-size: .6rem;
+    }
+    .copyright_text_area p,
+    nav{
+        line-height: 1rem;
+    }
+   
+    
+}
